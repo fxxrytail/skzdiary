@@ -1,0 +1,100 @@
+baseURL = "https://newchskzbyfei.netlify.com"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "CHANNEL SKZ"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+pluralizelisttitles = false
+sectionPagesMenu = "main"
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+[params]
+year = 2021
+title = "CHANNEL SKZ"
+author = "daisukijeu"
+description = "Masterlist of Stray Kids video contents"
+banner = "images/banner.jpg"
+profilePicture = "images/profile.jpg"
+keywords = ""
+favicon = "favicons/"
+customCss = []
+customJs = []
+mainSections = ["artistry", "shows", "vlive"]
+images = ["images/site-feature-image.png"]
+doNotLoadAnimations = true
+# Google Site Verification
+#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://de.linkedin.com/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/lxndrblz/anatole/"
+
+[[params.socialIcons]]
+icon = "fab fa-instagram"
+title = "instagram"
+url = "https://www.instagram.com/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:mail@alexbilz.com"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Artistry"
+  weight = 200
+  identifier = "artistry"
+  url = "/artistry/"
+
+  [[menu.main]]
+  name = "Shows"
+  weight = 200
+  identifier = "shows"
+  url = "/shows/"
+
+  [[menu.main]]
+  name = "V LIVE"
+  weight = 200
+  identifier = "vlive"
+  url = "/vlive/"
+
+#  [[menu.main]]
+#  name = "Posts"
+#  weight = 300
+#  identifier = "posts"
+#  url = "/post/"
+
+#  [[menu.main]]
+#  name = "About"
+#  weight = 500
+#  identifier = "about"
+#  url = "/about/"
